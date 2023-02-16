@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>universitytemplate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fonticonfile.txt"></script>
+   </head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                       <li><a href="#">HOME</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li><a href="#">COURSE</a></li>
+                       <li><a href="#">BLOG</a></li>
+                       <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World Biggest University</h1>
+            <p>Making websites is now of the easiest thing in the world.
+                You just need to learn <br>HTML CSS Javascript and you are good to go.</p>
+                <a href="" class="btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We offer web development related course</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>This para for Intermediator.Making websites is now of the easiest thing in the world.
+                You just need to learn HTML CSS Javascript and you are good to go.</p>
+        </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>This para for degree holder.Making websites is now of the easiest thing in the world.
+            You just need to learn HTML CSS Javascript and you are good to go.</p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>This para for Post Graduator. Making websites is now of the easiest thing in the world.
+            You just need to learn HTML CSS Javascript and you are good to go.</p>
+    </div>
+</div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>We provided global campus to our students</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We provided following facilities to our students</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <P>Making websites is now of the easiest thing in the world.
+                    You just need to learn HTML CSS Javascript and you are good to go.</P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <P>Making websites is now of the easiest thing in the world.
+                    You just need to learn HTML CSS Javascript and you are good to go.</P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <P>Making websites is now of the easiest thing in the world.
+                    You just need to learn HTML CSS Javascript and you are good to go.</P>
+            </div>
+        </div>
+      </section>
+
+
+      <section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>Feedback from our university students</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg"> <div>
+            <p>Eduford is a very good university. It has an excellent faculty preparing and motivating its students 
+            for a better future. It is a student oriented institute whose sole purpose is students’ success.</p>
+            <h3>Christine Berkley</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg"> <div>
+            <p>Eduford is a very good university. It has an excellent faculty preparing and motivating its students 
+            for a better future. It is a student oriented institute whose sole purpose is students’ success.</p>
+            <h3>David Byer</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+            </div>
+            </div>
+      </section>
+
+      <section class="enroll">
+          <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+          <a href="" class="btn1">Contact Us</a>
+      </section>
+
+<section class="footer">
+    <h4>About Us</h4>
+<p>Eduford is a very good university. It has an excellent faculty preparing and motivating its students 
+    for a better future.</p>
+  <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+     
+  </div>
+</section>
+
+
+
+
+
+
+<script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+   </script>
+</body>
+</html>
